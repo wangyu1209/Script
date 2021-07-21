@@ -25,7 +25,7 @@ else
 	echo "无需处理没有找到相关备份文件"
 fi
 ls /etc/yum.repos.d/
-wget -O /etc/yum.repos.d/CentOS-Base.repo https://repo.huaweicloud.com/repository/conf/CentOS-7-reg.repo
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo
 #拉取国内镜像源
 #安装epel源
 wget -O /etc/yum.repos.d/epel-7.repo http://mirrors.aliyun.com/repo/epel-7.repo 
