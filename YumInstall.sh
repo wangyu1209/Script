@@ -29,4 +29,4 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos
 #拉取国内镜像源
 #安装epel源
 wget -O /etc/yum.repos.d/epel-7.repo http://mirrors.aliyun.com/repo/epel-7.repo 
-yum clean all && yum makecache && yum update -y
+yum clean all && yum makecache 
